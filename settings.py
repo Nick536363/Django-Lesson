@@ -5,10 +5,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'HOST': 'checkpoint.devman.org',
-        'PORT': getenv("OPEN_PORT"),
-        'NAME': getenv("NAME_DB"),
-        'USER': getenv("USER"),
-        'PASSWORD': getenv("PASS"),
+        'PORT': getenv("DB_PORT"),
+        'NAME': getenv("DB_NAME"),
+        'USER': getenv("DB_USER"),
+        'PASSWORD': getenv("DB_PASS"),
     }
 }
 
